@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(86, 86, 236), violet);
+    font-family: 'Outfit', 'Arial', sans-serif;
+}
+
+.box {
+    width: 360px;
+    height: 480px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* HEADING SECTION */
+.heading {
+    width: 100%;
+    height: 60px;
+    background: rgba(21, 21, 251, 0.897);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    letter-spacing: 1px;
+}
+.heading-parameters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+}
+.heading-parameters img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: #fff solid 2px;
+}
+
+/* CONTAINER SECTION */
+.container {
+    padding: 0 20px;
+}
+.hr-top {
+    margin: 20px auto 0 auto;
+    width: 70%;
+    background: gray;
+}
+.hr-bottom {
+    background: gray;
+}
+h4 {
+    display: inline;
+    position: relative;
+    top: -12px;
+    background-color: #fff;
+    padding: 0 10px;
+    font-size: 12px;
+    color: gray;
+}
+.first-message {
+    width: 60%;
+    margin-left: auto;
+    background: rgb(86, 86, 236);
+    padding: 8px 8px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.second-message {
+    width: 75%;
+    margin-right: auto;
+    background: violet;
+    padding: 8px 8px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.third-message{
+    width: 30%;
+    margin-left: auto;
+    background: rgb(86, 86, 236);
+    padding: 8px 8px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.fourth-message {
+    width: 70%;
+    margin-right: auto;
+    background: violet;
+    padding: 8px 8px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.container h6 {
+    color: gray;
+}
+.container h6:nth-child(3), h6:nth-child(7){
+    text-align: right;
+    margin-bottom: 3px;
+}
+.container h6:nth-child(5), h6:nth-child(9){
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+/* FOOTER SECTION */
+.writting {
+    margin-top: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.writting input{
+    width: 85%;
+    height: 25px;
+    background-color: #fff;
+    border: gray solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 12px;
+}
+.smile{
+    position: relative;
+    left: -22px;
+}
+i, img, h3{
+    cursor: pointer;
+}
+.writting i {
+    color: rgb(110, 110, 110);
+}
